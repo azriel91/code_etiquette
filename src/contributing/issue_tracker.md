@@ -2,6 +2,8 @@
 
 Short version: A glorified Todo list.
 
+![](http://sites.psu.edu/siowfa15/wp-content/uploads/sites/29639/2015/09/20071126-todo-list.png)
+
 Long version, a Todo list with the following features:
 
 * **Summary:** Title of the issue / ticket &mdash; thing to do.
@@ -13,7 +15,12 @@ Long version, a Todo list with the following features:
 * **Assignee:** Who's working on it?
 * ...
 
-Example tickets:
+Example systems:
+
+* Github [issues](https://github.com/colin-kiegel/rust-derive-builder/issues)
+* [Jira](https://jira.atlassian.com/projects/BSERV/issues/BSERV-9646?filter=allopenissues)
+
+Example issues/tickets:
 
 * [awspec](https://github.com/k1LoW/awspec/issues/218): Not very detailed, "I want this".
 * [rust-derive-builder](https://github.com/colin-kiegel/rust-derive-builder/issues/43): Detailed with examples.

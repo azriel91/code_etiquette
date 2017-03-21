@@ -34,8 +34,8 @@
 * Makes code easier to read.
 
     ```rust
-    fn x() { 1 }
-    fn y() { 1 }
+    fn x() -> i32 { return 1; }
+    fn y() -> i32 { return 1; }
 
     fn main() {
         assert_eq!(x(), y());
@@ -43,12 +43,14 @@
     ```
 
     ```rust
-    fn x() { 1
+    fn x() -> i32 { return
+        1;
     }
 
 
-    fn y() {
-        1
+    fn y() -> i32 {
+        return 1
+        ;
     }
 
     fn main() {
@@ -56,6 +58,8 @@
         y());
     }
     ```
+
+* Avoids the "I change it, you change it back" war.
 
 * Reduce unnecessary noise in the diff:
 

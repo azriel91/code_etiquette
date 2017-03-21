@@ -2,11 +2,13 @@
 
 > "It works on my machine." &mdash; said every developer, ever.
 
-Continuous integration (CI) is a process in which every set of changes that is pushed to a repository is compiled and tested by a **build server**. Good stuff:
+Continuous integration (CI) is a process in which every set of changes that is pushed to a repository is compiled and tested by a **build server**.
+
+![continuous integration](http://www.continuousintegrationtools.com/cicycle.jpg)
 
 * Everything you need to build is specified by the repository. Paraphrased: you do not have the software that is installed on the developer's machine that can affect the building / testing of the software.
 * Confidence that "the code is good" before merging.
-* You can build across multiple operating systems (Windows, Linux, MacOS) from the same source, and ensure it works before merging code from a `feature` / `bugfix` branch into `master`.
+* You can build across multiple operating systems (Windows, Linux, MacOS) from the same source, and ensure it works before merging code from a branch into `master`.
 
 ## CI Software
 

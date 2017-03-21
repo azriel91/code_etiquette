@@ -9,7 +9,7 @@ Versioning is a way to describe different copies of a project over time. Obvious
     - S2 ~ S7
     - Note 7
 
-Versioning allows you to say there's more to my project than this, but here have some of it.
+Versioning allows you to say there's more to my project than this, but here have this early version.
 
 ## Semantic Versioning
 
